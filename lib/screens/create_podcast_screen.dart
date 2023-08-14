@@ -4,15 +4,11 @@ import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:dio/dio.dart';
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:podcast_app/providers/podcasts_provider.dart';
 import '../components/file_upload_progress_bar.dart';
 import '../models/podcast_list.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../providers/podcast_lists_provider.dart';
-import '../models/create_podcast_input.dart';
-import '../providers/auth_provider.dart';
 
 class CreatePodcastScreen extends ConsumerStatefulWidget {
   PodcastList podcastList;

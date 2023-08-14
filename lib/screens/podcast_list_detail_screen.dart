@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:motion_toast/resources/arrays.dart';
 import './create_podcast_screen.dart';
-import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import '../models/podcast_list.dart';
 import '../utils/constants.dart';
@@ -11,10 +8,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/podcasts_provider.dart';
 import '../components/podcast_list_tile.dart';
-import '../models/podcast.dart';
 import '../components/podcast_list_tile_shimmer.dart';
-import 'package:motion_toast/motion_toast.dart';
-
 class PodcastListDetailScreen extends ConsumerStatefulWidget {
 
   PodcastList podcastList;

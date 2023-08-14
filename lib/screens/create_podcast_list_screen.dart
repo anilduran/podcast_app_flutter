@@ -8,8 +8,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../utils/constants.dart';
 import '../providers/auth_provider.dart';
 import '../providers/podcast_lists_provider.dart';
-import '../models/podcast_list.dart';
-
 class CreatePodcastListScreen extends ConsumerStatefulWidget {
 
 

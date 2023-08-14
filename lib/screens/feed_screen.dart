@@ -1,6 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:like_button/like_button.dart';
 import 'package:podcast_app/components/feed_screen_podcast_list_card_shimmer.dart';
 import 'package:podcast_app/components/feed_screen_slider_shimmer.dart';
 import 'package:podcast_app/providers/podcast_lists_provider.dart';
@@ -8,11 +7,8 @@ import 'package:podcast_app/screens/library_detail_screen.dart';
 import 'package:podcast_app/screens/liked_podcast_list_screen.dart';
 import 'package:podcast_app/utils/constants.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import './create_podcast_screen.dart';
-import './listen_podcast_screen.dart';
 import './podcast_lists_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import './listen_podcast_screen.dart';
 import '../components/podcast_card.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/podcasts_provider.dart';

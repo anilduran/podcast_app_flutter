@@ -3,7 +3,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:podcast_app/components/library_podcast_list_card_shimmer.dart';
-import 'package:podcast_app/components/podcast_list_tile_shimmer.dart';
 import 'package:podcast_app/providers/podcast_lists_provider.dart';
 import 'package:podcast_app/screens/library_detail_screen.dart';
 import '../utils/constants.dart';

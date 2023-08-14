@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:podcast_app/components/library_podcast_list_card_shimmer.dart';
 import 'package:podcast_app/providers/podcasts_provider.dart';
 import '../components/liked_podcast_card.dart';

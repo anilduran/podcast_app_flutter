@@ -3,10 +3,7 @@ import 'package:motion_toast/motion_toast.dart';
 import 'package:motion_toast/resources/arrays.dart';
 import './home_screen.dart';
 import 'package:email_validator/email_validator.dart';
-import '../utils/constants.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../providers/auth_provider.dart';
 import '../providers/auth_provider.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

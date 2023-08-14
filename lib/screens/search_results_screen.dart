@@ -1,6 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:podcast_app/providers/podcast_lists_provider.dart';
 import 'package:podcast_app/utils/constants.dart';
 import './library_detail_screen.dart';

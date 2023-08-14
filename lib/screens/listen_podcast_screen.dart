@@ -9,7 +9,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import '../utils/constants.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
-import '../utils/constants.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:like_button/like_button.dart';
 
